@@ -69,3 +69,15 @@ bash scripts/study.sh smoke
 ```
 
 失败时找到本次 scripts/runs/ 目录中的 commands.jsonl 和 smoke.json。它们保存实际命令与状态，便于区分环境缺失、输入问题和结果不符。
+
+## 进阶工具的失败状态
+
+日志 CLI 状态 2 表示输入输出问题，3 表示 strict 格式检查失败，4 表示错误率超限，5 表示没有合法数据。3/4/5 仍可能保存了正确的诊断报告，应看报告再判断。不要为变成状态 0 而丢弃坏记录或随意放宽阈值。
+
+已有输出被拒绝时，换一个新的仓库内输出路径；空数据的 null 不是零错误率。无权使用 strace/gdb 时保留环境限制，不能把缺少断点证据记录成调试已通过。
+
+离线 wheel 构建失败先检查本次 venv 中的 setuptools/wheel；--no-build-isolation 不会自动提供后端。改动源码后需要重新构建和安装，直接执行旧安装命令不会更新包。
+
+进度记录的 learning/done/review 来自自己的判断。record 未知编号返回 2；格式错误的记录不会被覆盖。只读 progress 不会自动建立已完成状态。
+
+更新完整课程后用 `bash scripts/learn.sh check`；文档重建用 `/usr/bin/python3 -I scripts/build_all_docs.py`。只运行旧基础生成器会恢复旧总览，需要完整重建以接回进阶导航。

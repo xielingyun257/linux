@@ -1,0 +1,17 @@
+{
+  "scripts/build_course_docs.py": "67445d31536e8786c4aac52c34619ef8304eee365dc43bb366bee3d831059c51",
+  "scripts/lab.py": "543d5843087cc338ef11d449a43c4d5534dcf0c5ee2ff51052814c1c6e8ca4e1",
+  "scripts/programming/bash/automation.sh": "1d9b5e25d2e77fd03fb16ba3171203420b095e05d7581905434e173739b18ae7",
+  "scripts/programming/bash/basics.sh": "56f3f2199ce8efc6a9f6f6ca9253353ba1afdccfe1ffcd37d185b7e413aa7692",
+  "scripts/programming/cpp/CMakeLists.txt": "984b65cdbf9824c8726d1a315899f8b0c9922aac6f4c6fdd54eae5d6bb9dfba1",
+  "scripts/programming/cpp/angle.cpp": "0a0b1692cb6602b3c5b67a2dba5efa2ef6ff710cac376b007583432a832fb3a2",
+  "scripts/programming/python/examples.py": "16fcd60581e616e71c37c57de5d9dc3137cbe05ffab53abe001645f8d00d85bc",
+  "scripts/programming/python/modules/converter.py": "7314ac430299b6395a54bea7aa7f5013d2360e526382b022d4ff120a9553b713",
+  "scripts/programming/python/modules/main.py": "cdf940fa7a859b73c8a010ba25fa948373e4ade65a640302ebe7c12cc403bba4",
+  "scripts/projects/debug.py": "755b2a45cc92fc1f77d14890884e48cf206c6e528b6f4b03b90350d6c1dc14bd",
+  "scripts/projects/logs.py": "87ea74e23fa6e67f14d984b47ebf5ebcc7381ad54c62a6371373d7b189bc6434",
+  "scripts/projects/organize.py": "09636f2cdf39a6bbb3c1147b8606ee4783f66205d6ed5154ce6c13ec7169638d",
+  "scripts/study.sh": "55f99a4f97b93bb648646d8115e3429c98f2e20127220a73328ec64a7a887231",
+  "scripts/validate_course.py": "98d7c56d8abc7af9745e36ab8ba14797d30b048011d9071cb7056e77be03aa99",
+  "scripts/warmup.sh": "57941c7fc9b4a185907e02b55cbe27031b5bcf3996d9ad0ca7f2f4febdd281f1"
+}

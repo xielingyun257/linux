@@ -48,3 +48,26 @@
 | 本地文档验收 | `bash scripts/study.sh validate` | 不联网 |
 
 桌面：Super 开概览，Ctrl+Alt+T 开终端，Alt+Tab 切换；终端复制粘贴通常为 Ctrl+Shift+C/V，Ctrl+C 中断前台任务。实际绑定以本机设置为准。
+
+## 进阶速查
+
+| 任务 | 入口或命令 | 要点 |
+| --- | --- | --- |
+| 保留位置参数 | `"$@"` | 每个参数保留独立边界 |
+| 安全传递路径列表 | `find 目录 -type f -print0` 与 `xargs -0` | 两端分隔协议一致 |
+| 统计字段 | `awk -F, 'NR>1 {sum+=$2; n++} END {print sum/n}' 文件` | 先明确合法记录和分母 |
+| 检查 Shell 语法 | `bash -n 脚本` | 不运行，不验证逻辑 |
+| 预览同步 | `rsync -av --dry-run 源目录/ 目标目录/` | 先看范围，不默认删文件 |
+| SSH 配置解析 | `ssh -G -F 配置文件 别名` | 不建立连接 |
+| unit 语法验证 | `systemd-analyze verify --man=no unit文件` | 不代替启用与运行 |
+| 日历解析 | `systemd-analyze calendar --iterations=2 hourly` | 看时区与下次触发 |
+| Python 边界测试 | `bash scripts/advanced.sh lab tests` | 正常、失败、空输入和覆盖保护 |
+| C++ 测试 | `bash scripts/advanced.sh lab cpp` | 编译后实际执行 CTest |
+| 调试与内存诊断 | `bash scripts/advanced.sh lab debugging` | 故意错误的非零状态是预期 |
+| Git 恢复演练 | `bash scripts/advanced.sh lab git` | 独立示例，主仓库不切换 |
+| 复现实验 | `bash scripts/advanced.sh lab reproduce` | 输入、参数、源码和结果摘要 |
+| 查全部课程 | `bash scripts/learn.sh catalog` | 基础 36 + 进阶 24 |
+| 看本机进度 | `bash scripts/learn.sh progress` | 自动运行不记完成 |
+| 全课程检查 | `bash scripts/learn.sh check` | 文档、源码不变、进度往返 |
+
+详细操作与边界见[进阶总览](advanced/README.md)。

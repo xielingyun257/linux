@@ -52,3 +52,7 @@ docker 组通常提供很高的主机权限，不为完成课程自动改用户�
 </details>
 
 继续阅读[理论补充](THEORY.md)，再用自己的话解释操作。参考资料见[官方资源与版本说明](../../../docs/RESOURCES.md)。
+
+<!-- advanced-transition -->
+
+基础工具课之后，可进入[进阶系列](../../advanced/README.md)，或按[目标路线](../../START_HERE.md)选择下一步。

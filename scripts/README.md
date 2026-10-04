@@ -1,5 +1,7 @@
 # 运行入口与示例
 
+这里保留 36 节基础课的运行说明。新增 24 节进阶课、60 节统一目录和本地进度记录见[进阶运行指南](ADVANCED.md)；完整课程重建改用 scripts/build_all_docs.py。
+
 从仓库根目录运行 `bash scripts/study.sh ...`。脚本自身定位仓库，因此也可用绝对路径从其他目录调用。主入口用系统 Python 的 `-I` 隔离模式，局部模块示例用 `-E -s` 保留同目录导入。
 
 ## 命令表
@@ -49,5 +51,12 @@ bash scripts/study.sh smoke
 ```
 
 构建器维护操作课、理论页、课程导航和清单。术语、来源、项目说明和验证记录单独维护。smoke 的完成标准包括文件字节、数值容差、日志计数、Git 历史、资源回收与文档完整性，详见[验证记录](../docs/VALIDATION.md)。
+
+上面的旧构建命令只维护基础部分。更新全课程请使用：
+
+```bash
+/usr/bin/python3 -I scripts/build_all_docs.py
+bash scripts/learn.sh check
+```
 
 最小热身可用 `bash scripts/warmup.sh`；会另建目录和一个允许系统包的 venv，不安装第三方包。

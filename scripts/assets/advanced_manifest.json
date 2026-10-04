@@ -1,0 +1,316 @@
+[
+  {
+    "id": "H01",
+    "group": "shell",
+    "title": "引号、展开与参数边界",
+    "readme": "course/advanced/shell/01_quoting/README.md",
+    "theory": "course/advanced/shell/01_quoting/THEORY.md",
+    "lab": "quoting",
+    "prerequisites": [
+      "C01",
+      "C02",
+      "C07",
+      "P07"
+    ]
+  },
+  {
+    "id": "H02",
+    "group": "shell",
+    "title": "sed、awk 与结构化文本",
+    "readme": "course/advanced/shell/02_sed_awk/README.md",
+    "theory": "course/advanced/shell/02_sed_awk/THEORY.md",
+    "lab": "text",
+    "prerequisites": [
+      "C04",
+      "C05",
+      "C06",
+      "P03"
+    ]
+  },
+  {
+    "id": "H03",
+    "group": "shell",
+    "title": "find、xargs 与复杂文件名",
+    "readme": "course/advanced/shell/03_nul_paths/README.md",
+    "theory": "course/advanced/shell/03_nul_paths/THEORY.md",
+    "lab": "paths",
+    "prerequisites": [
+      "C02",
+      "C05",
+      "P08"
+    ]
+  },
+  {
+    "id": "H04",
+    "group": "shell",
+    "title": "退出状态、信号与资源清理",
+    "readme": "course/advanced/shell/04_graceful_exit/README.md",
+    "theory": "course/advanced/shell/04_graceful_exit/THEORY.md",
+    "lab": "signals",
+    "prerequisites": [
+      "S03",
+      "P07",
+      "P06"
+    ]
+  },
+  {
+    "id": "H05",
+    "group": "shell",
+    "title": "参数化命令行工具与机器可读报告",
+    "readme": "course/advanced/shell/05_cli_contract/README.md",
+    "theory": "course/advanced/shell/05_cli_contract/THEORY.md",
+    "lab": "cli",
+    "prerequisites": [
+      "P04",
+      "P05",
+      "P06",
+      "C06"
+    ]
+  },
+  {
+    "id": "H06",
+    "group": "shell",
+    "title": "文件锁、原子替换与重复运行",
+    "readme": "course/advanced/shell/06_lock_atomic/README.md",
+    "theory": "course/advanced/shell/06_lock_atomic/THEORY.md",
+    "lab": "atomic",
+    "prerequisites": [
+      "P08",
+      "S03",
+      "C03"
+    ]
+  },
+  {
+    "id": "N01",
+    "group": "systems",
+    "title": "/proc、资源上限与观察范围",
+    "readme": "course/advanced/systems/01_proc_limits/README.md",
+    "theory": "course/advanced/systems/01_proc_limits/THEORY.md",
+    "lab": "proc",
+    "prerequisites": [
+      "S03",
+      "S06"
+    ]
+  },
+  {
+    "id": "N02",
+    "group": "systems",
+    "title": "性能测量、复杂度与 strace",
+    "readme": "course/advanced/systems/02_performance_strace/README.md",
+    "theory": "course/advanced/systems/02_performance_strace/THEORY.md",
+    "lab": "timing",
+    "prerequisites": [
+      "P03",
+      "S03",
+      "C04"
+    ]
+  },
+  {
+    "id": "N03",
+    "group": "systems",
+    "title": "HTTP 状态、curl 与分层网络排错",
+    "readme": "course/advanced/systems/03_http_diagnosis/README.md",
+    "theory": "course/advanced/systems/03_http_diagnosis/THEORY.md",
+    "lab": "http",
+    "prerequisites": [
+      "S05",
+      "C06"
+    ]
+  },
+  {
+    "id": "N04",
+    "group": "systems",
+    "title": "SSH 配置、密钥与端口转发",
+    "readme": "course/advanced/systems/04_ssh_config/README.md",
+    "theory": "course/advanced/systems/04_ssh_config/THEORY.md",
+    "lab": "ssh-config",
+    "prerequisites": [
+      "S05",
+      "C07"
+    ]
+  },
+  {
+    "id": "N05",
+    "group": "systems",
+    "title": "systemd unit、用户服务与定时器",
+    "readme": "course/advanced/systems/05_user_timers/README.md",
+    "theory": "course/advanced/systems/05_user_timers/THEORY.md",
+    "lab": "systemd",
+    "prerequisites": [
+      "S04",
+      "P07",
+      "H05"
+    ]
+  },
+  {
+    "id": "N06",
+    "group": "systems",
+    "title": "rsync、增量快照与恢复",
+    "readme": "course/advanced/systems/06_incremental_backup/README.md",
+    "theory": "course/advanced/systems/06_incremental_backup/THEORY.md",
+    "lab": "backup",
+    "prerequisites": [
+      "C08",
+      "S06",
+      "H06"
+    ]
+  },
+  {
+    "id": "E01",
+    "group": "engineering",
+    "title": "类、dataclass、类型提示与数据模型",
+    "readme": "course/advanced/engineering/01_models_types/README.md",
+    "theory": "course/advanced/engineering/01_models_types/THEORY.md",
+    "lab": "objects",
+    "prerequisites": [
+      "P04",
+      "P05",
+      "P06"
+    ]
+  },
+  {
+    "id": "E02",
+    "group": "engineering",
+    "title": "单元测试、边界输入与失败契约",
+    "readme": "course/advanced/engineering/02_unittest/README.md",
+    "theory": "course/advanced/engineering/02_unittest/THEORY.md",
+    "lab": "tests",
+    "prerequisites": [
+      "P04",
+      "P06",
+      "E01",
+      "H05"
+    ]
+  },
+  {
+    "id": "E03",
+    "group": "engineering",
+    "title": "Python 打包、wheel 与安装入口",
+    "readme": "course/advanced/engineering/03_offline_packaging/README.md",
+    "theory": "course/advanced/engineering/03_offline_packaging/THEORY.md",
+    "lab": "packaging",
+    "prerequisites": [
+      "P01",
+      "P05",
+      "H05"
+    ]
+  },
+  {
+    "id": "E04",
+    "group": "engineering",
+    "title": "线程池、Future 与任务汇总",
+    "readme": "course/advanced/engineering/04_concurrency/README.md",
+    "theory": "course/advanced/engineering/04_concurrency/THEORY.md",
+    "lab": "concurrency",
+    "prerequisites": [
+      "P03",
+      "P04",
+      "S03"
+    ]
+  },
+  {
+    "id": "E05",
+    "group": "engineering",
+    "title": "C++ 库目标、接口与 CTest",
+    "readme": "course/advanced/engineering/05_cpp_library_tests/README.md",
+    "theory": "course/advanced/engineering/05_cpp_library_tests/THEORY.md",
+    "lab": "cpp",
+    "prerequisites": [
+      "P09",
+      "P10",
+      "E02"
+    ]
+  },
+  {
+    "id": "E06",
+    "group": "engineering",
+    "title": "gdb、调用栈与 AddressSanitizer",
+    "readme": "course/advanced/engineering/06_debug_sanitizer/README.md",
+    "theory": "course/advanced/engineering/06_debug_sanitizer/THEORY.md",
+    "lab": "debugging",
+    "prerequisites": [
+      "P10",
+      "E05"
+    ]
+  },
+  {
+    "id": "E07",
+    "group": "engineering",
+    "title": "Git 冲突、abort 与 bisect",
+    "readme": "course/advanced/engineering/07_git_recovery/README.md",
+    "theory": "course/advanced/engineering/07_git_recovery/THEORY.md",
+    "lab": "git",
+    "prerequisites": [
+      "T03",
+      "T04",
+      "E02"
+    ]
+  },
+  {
+    "id": "E08",
+    "group": "engineering",
+    "title": "Dockerfile、Compose 与环境边界（选修）",
+    "readme": "course/advanced/engineering/08_container_build/README.md",
+    "theory": "course/advanced/engineering/08_container_build/THEORY.md",
+    "lab": "containers",
+    "prerequisites": [
+      "T06",
+      "P01",
+      "H05"
+    ]
+  },
+  {
+    "id": "R01",
+    "group": "workflows",
+    "title": "阅读陌生项目：入口、依赖与数据流",
+    "readme": "course/advanced/workflows/01_read_project/README.md",
+    "theory": "course/advanced/workflows/01_read_project/THEORY.md",
+    "lab": "reading",
+    "prerequisites": [
+      "P05",
+      "P10",
+      "T03"
+    ]
+  },
+  {
+    "id": "R02",
+    "group": "workflows",
+    "title": "种子、参数、源码摘要与复现实验",
+    "readme": "course/advanced/workflows/02_reproducibility/README.md",
+    "theory": "course/advanced/workflows/02_reproducibility/THEORY.md",
+    "lab": "reproduce",
+    "prerequisites": [
+      "P06",
+      "C08",
+      "E03"
+    ]
+  },
+  {
+    "id": "R03",
+    "group": "workflows",
+    "title": "故障排查：证据、假设与最小改动",
+    "readme": "course/advanced/workflows/03_incident_method/README.md",
+    "theory": "course/advanced/workflows/03_incident_method/THEORY.md",
+    "lab": "incident",
+    "prerequisites": [
+      "S03",
+      "S05",
+      "H05",
+      "N03"
+    ]
+  },
+  {
+    "id": "R04",
+    "group": "workflows",
+    "title": "综合实战：日志巡检、阈值与归档",
+    "readme": "course/advanced/workflows/04_capstone/README.md",
+    "theory": "course/advanced/workflows/04_capstone/THEORY.md",
+    "lab": "capstone",
+    "prerequisites": [
+      "H05",
+      "H06",
+      "E02",
+      "R02"
+    ]
+  }
+]

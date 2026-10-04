@@ -36,3 +36,11 @@ NTFS 的权限、链接与文件名行为受驱动和挂载选项影响。权限
 自动实验创建 scripts/runs/ 唯一目录，热身与 venv 放 scripts/runtime/。编译子进程的 TMPDIR 指向仓库内，Git 忽略这些产物。热身已验证创建 venv、C++ 编译执行和归档读取。
 
 图形桌面操作、远端 SSH、管理员安装与 Docker daemon 不属于 environment 检查。具体已验证范围见[验证记录](VALIDATION.md)。
+
+## 进阶依赖与新增观测
+
+同日进阶 doctor 找到 /usr/bin 下的 awk、sed、find、xargs、flock、rsync、strace、gdb、ctest、ssh、curl、systemd-analyze。系统 Python 能找到 setuptools、wheel、pip；离线构建后端和安装命令已运行验证，不下载依赖。
+
+当前 NTFS windows_names 挂载拒绝换行文件名，空格/中文路径正常；rsync --link-dest 对未变文件实测共享 inode。gdb 的 main 断点与 strace 本次可用。Compose 配置解析通过，但没有实际构建或运行镜像。
+
+重新核对用 `bash scripts/advanced.sh doctor`。详细范围见[进阶验证](ADVANCED_VALIDATION.md)，新增运行入口不加载基础或 ROS 环境。

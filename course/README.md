@@ -1,12 +1,12 @@
-# 课程总览与学习路线
+# 完整课程总览：基础 36 + 进阶 24
 
-面向零基础，主环境为 Ubuntu 22.04。共 36 节，T06 Docker 为选修。课程与运行示例各自独立，不需要加载 ROS 或 cv 的环境。
+共 **60 节**，主环境 Ubuntu 22.04。基础与进阶都有操作、理论、变式和自检；容器实操与真实远程操作按依赖选择。
 
-从 U01 开始，依次完成 Ubuntu、终端、系统管理、编程与工具课。开始写程序时可提前学习 T01/T02；需要记录自己的版本时穿插 T03/T04。
+先看[从哪里开始](START_HERE.md)选择路线；想解决当前问题查[场景索引](SCENARIOS.md)，想验证独立能力做[阶段任务](MILESTONES.md)。
 
-每节按“理解→预测→运行→观察→改一个条件→解释→自检”学习。自动命令从仓库根目录运行；运行前查看本课目标，不必一口气执行全部代码。
+## 基础课程（36 节）
 
-| 顺序 | 课程 |
+| 编号 | 课程 |
 | --- | --- |
 | U01 | [Linux、Ubuntu 与电脑里的几层软件](lessons/ubuntu_basics/01_linux_ubuntu/README.md) |
 | U02 | [桌面、窗口与快捷键](lessons/ubuntu_basics/02_desktop_windows/README.md) |
@@ -45,23 +45,48 @@
 | T05 | [tmux 会话、窗口与面板](tools/05_tmux/README.md) |
 | T06 | [Docker 镜像、容器与挂载（选修）](tools/06_docker_optional/README.md) |
 
-## 综合练习
+## 进阶课程（24 节）
 
-- [资料整理与备份](../projects/organize/README.md)：C03/C08、S06、P06 之后。
-- [日志分析](../projects/logs/README.md)：C05/C06、P03/P06 之后。
-- [平均值程序调试](../projects/debug/README.md)：P04/P06、T02 之后。
+[系列导览](advanced/README.md)。需要哪一课可按其前置知识进入，不要求先逐页读完。
 
-## 节奏与完成标准
+| 编号 | 课程 |
+| --- | --- |
+| H01 | [引号、展开与参数边界](advanced/shell/01_quoting/README.md) |
+| H02 | [sed、awk 与结构化文本](advanced/shell/02_sed_awk/README.md) |
+| H03 | [find、xargs 与复杂文件名](advanced/shell/03_nul_paths/README.md) |
+| H04 | [退出状态、信号与资源清理](advanced/shell/04_graceful_exit/README.md) |
+| H05 | [参数化命令行工具与机器可读报告](advanced/shell/05_cli_contract/README.md) |
+| H06 | [文件锁、原子替换与重复运行](advanced/shell/06_lock_atomic/README.md) |
+| N01 | [/proc、资源上限与观察范围](advanced/systems/01_proc_limits/README.md) |
+| N02 | [性能测量、复杂度与 strace](advanced/systems/02_performance_strace/README.md) |
+| N03 | [HTTP 状态、curl 与分层网络排错](advanced/systems/03_http_diagnosis/README.md) |
+| N04 | [SSH 配置、密钥与端口转发](advanced/systems/04_ssh_config/README.md) |
+| N05 | [systemd unit、用户服务与定时器](advanced/systems/05_user_timers/README.md) |
+| N06 | [rsync、增量快照与恢复](advanced/systems/06_incremental_backup/README.md) |
+| E01 | [类、dataclass、类型提示与数据模型](advanced/engineering/01_models_types/README.md) |
+| E02 | [单元测试、边界输入与失败契约](advanced/engineering/02_unittest/README.md) |
+| E03 | [Python 打包、wheel 与安装入口](advanced/engineering/03_offline_packaging/README.md) |
+| E04 | [线程池、Future 与任务汇总](advanced/engineering/04_concurrency/README.md) |
+| E05 | [C++ 库目标、接口与 CTest](advanced/engineering/05_cpp_library_tests/README.md) |
+| E06 | [gdb、调用栈与 AddressSanitizer](advanced/engineering/06_debug_sanitizer/README.md) |
+| E07 | [Git 冲突、abort 与 bisect](advanced/engineering/07_git_recovery/README.md) |
+| E08 | [Dockerfile、Compose 与环境边界（选修）](advanced/engineering/08_container_build/README.md) |
+| R01 | [阅读陌生项目：入口、依赖与数据流](advanced/workflows/01_read_project/README.md) |
+| R02 | [种子、参数、源码摘要与复现实验](advanced/workflows/02_reproducibility/README.md) |
+| R03 | [故障排查：证据、假设与最小改动](advanced/workflows/03_incident_method/README.md) |
+| R04 | [综合实战：日志巡检、阈值与归档](advanced/workflows/04_capstone/README.md) |
 
-建议每次 30～60 分钟学一节，分两次完成较长实验；可用 8～12 周推进，不设强制周作业。第一轮掌握日常与终端，再学系统排错和 Python，最后串联工具与项目。
+## 项目与辅助资料
 
-一节完成意味着：能解释命令或代码的输入与输出；能独立重做核心步骤；改一个条件后能预测变化；能回答自检并保存自己的记录。一次命令成功不能代替理解。
+- [六个综合项目](../projects/README.md)
+- [术语表](GLOSSARY.md)与[命令速查](CHEATSHEET.md)
+- [学习记录模板](../scripts/templates/study_record.md)
+- [基础运行](../scripts/README.md)与[进阶运行](../scripts/ADVANCED.md)
+- [故障指南](../docs/TROUBLESHOOTING.md)与[进阶验收](../docs/ADVANCED_VALIDATION.md)
 
-## 学习辅助
+每课按“理解→预测→操作→观察→变式→解释”学习。基础每次约 30～60 分钟，进阶约 45～90 分钟，按自己的节奏推进。
 
-- [术语表](GLOSSARY.md)
-- [命令速查](CHEATSHEET.md)
-- [练习记录模板](../scripts/templates/study_record.md)
-- [运行指南](../scripts/README.md)
-- [故障处理](../docs/TROUBLESHOOTING.md)
-- [验证范围](../docs/VALIDATION.md)
+```bash
+bash scripts/learn.sh catalog
+bash scripts/learn.sh progress
+```
