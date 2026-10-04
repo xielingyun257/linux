@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(linux_angle_lesson LANGUAGES CXX)
+add_executable(angle angle.cpp)
+target_compile_features(angle PRIVATE cxx_std_17)
+target_compile_options(angle PRIVATE -Wall -Wextra -pedantic)

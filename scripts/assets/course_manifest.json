@@ -1,0 +1,254 @@
+[
+  {
+    "id": "U01",
+    "group": "ubuntu",
+    "title": "Linux、Ubuntu 与电脑里的几层软件",
+    "readme": "course/lessons/ubuntu_basics/01_linux_ubuntu/README.md",
+    "theory": "course/lessons/ubuntu_basics/01_linux_ubuntu/THEORY.md"
+  },
+  {
+    "id": "U02",
+    "group": "ubuntu",
+    "title": "桌面、窗口与快捷键",
+    "readme": "course/lessons/ubuntu_basics/02_desktop_windows/README.md",
+    "theory": "course/lessons/ubuntu_basics/02_desktop_windows/THEORY.md"
+  },
+  {
+    "id": "U03",
+    "group": "ubuntu",
+    "title": "文件管理器、目录与隐藏文件",
+    "readme": "course/lessons/ubuntu_basics/03_file_manager/README.md",
+    "theory": "course/lessons/ubuntu_basics/03_file_manager/THEORY.md"
+  },
+  {
+    "id": "U04",
+    "group": "ubuntu",
+    "title": "中文输入、复制粘贴与终端快捷键",
+    "readme": "course/lessons/ubuntu_basics/04_input_clipboard/README.md",
+    "theory": "course/lessons/ubuntu_basics/04_input_clipboard/THEORY.md"
+  },
+  {
+    "id": "U05",
+    "group": "ubuntu",
+    "title": "系统设置、设备与软件入口",
+    "readme": "course/lessons/ubuntu_basics/05_settings_devices/README.md",
+    "theory": "course/lessons/ubuntu_basics/05_settings_devices/THEORY.md"
+  },
+  {
+    "id": "U06",
+    "group": "ubuntu",
+    "title": "截图、求助与记录一次操作",
+    "readme": "course/lessons/ubuntu_basics/06_screenshots_learning/README.md",
+    "theory": "course/lessons/ubuntu_basics/06_screenshots_learning/THEORY.md"
+  },
+  {
+    "id": "C01",
+    "group": "terminal",
+    "title": "终端、Shell 与一条命令的结构",
+    "readme": "course/lessons/terminal/01_shell_commands/README.md",
+    "theory": "course/lessons/terminal/01_shell_commands/THEORY.md"
+  },
+  {
+    "id": "C02",
+    "group": "terminal",
+    "title": "绝对路径、相对路径与目录导航",
+    "readme": "course/lessons/terminal/02_paths_navigation/README.md",
+    "theory": "course/lessons/terminal/02_paths_navigation/THEORY.md"
+  },
+  {
+    "id": "C03",
+    "group": "terminal",
+    "title": "创建、复制、移动与删除练习文件",
+    "readme": "course/lessons/terminal/03_file_operations/README.md",
+    "theory": "course/lessons/terminal/03_file_operations/THEORY.md"
+  },
+  {
+    "id": "C04",
+    "group": "terminal",
+    "title": "查看文本、日志与文件类型",
+    "readme": "course/lessons/terminal/04_read_text/README.md",
+    "theory": "course/lessons/terminal/04_read_text/THEORY.md"
+  },
+  {
+    "id": "C05",
+    "group": "terminal",
+    "title": "查文件与查内容：find、grep、rg",
+    "readme": "course/lessons/terminal/05_search_find/README.md",
+    "theory": "course/lessons/terminal/05_search_find/THEORY.md"
+  },
+  {
+    "id": "C06",
+    "group": "terminal",
+    "title": "管道、标准输出与错误输出",
+    "readme": "course/lessons/terminal/06_pipes_redirection/README.md",
+    "theory": "course/lessons/terminal/06_pipes_redirection/THEORY.md"
+  },
+  {
+    "id": "C07",
+    "group": "terminal",
+    "title": "环境变量、PATH 与启动配置",
+    "readme": "course/lessons/terminal/07_environment_paths/README.md",
+    "theory": "course/lessons/terminal/07_environment_paths/THEORY.md"
+  },
+  {
+    "id": "C08",
+    "group": "terminal",
+    "title": "压缩归档、校验与软链接",
+    "readme": "course/lessons/terminal/08_archives_links/README.md",
+    "theory": "course/lessons/terminal/08_archives_links/THEORY.md"
+  },
+  {
+    "id": "S01",
+    "group": "system",
+    "title": "用户、组、权限与 sudo",
+    "readme": "course/lessons/system/01_users_permissions/README.md",
+    "theory": "course/lessons/system/01_users_permissions/THEORY.md"
+  },
+  {
+    "id": "S02",
+    "group": "system",
+    "title": "apt、dpkg、Snap 与软件安装",
+    "readme": "course/lessons/system/02_packages_software/README.md",
+    "theory": "course/lessons/system/02_packages_software/THEORY.md"
+  },
+  {
+    "id": "S03",
+    "group": "system",
+    "title": "进程、前后台与任务结束",
+    "readme": "course/lessons/system/03_process_jobs/README.md",
+    "theory": "course/lessons/system/03_process_jobs/THEORY.md"
+  },
+  {
+    "id": "S04",
+    "group": "system",
+    "title": "systemd 服务、启动项与日志",
+    "readme": "course/lessons/system/04_services_logs/README.md",
+    "theory": "course/lessons/system/04_services_logs/THEORY.md"
+  },
+  {
+    "id": "S05",
+    "group": "system",
+    "title": "IP、端口、HTTP、SSH 与文件传输",
+    "readme": "course/lessons/system/05_network_ssh/README.md",
+    "theory": "course/lessons/system/05_network_ssh/THEORY.md"
+  },
+  {
+    "id": "S06",
+    "group": "system",
+    "title": "磁盘空间、挂载与备份排错",
+    "readme": "course/lessons/system/06_storage_mounts/README.md",
+    "theory": "course/lessons/system/06_storage_mounts/THEORY.md"
+  },
+  {
+    "id": "P01",
+    "group": "programming",
+    "title": "Python、解释器、venv 与 Miniforge",
+    "readme": "course/programming/01_python_environment/README.md",
+    "theory": "course/programming/01_python_environment/THEORY.md"
+  },
+  {
+    "id": "P02",
+    "group": "programming",
+    "title": "变量、类型、单位与容器",
+    "readme": "course/programming/02_variables_containers/README.md",
+    "theory": "course/programming/02_variables_containers/THEORY.md"
+  },
+  {
+    "id": "P03",
+    "group": "programming",
+    "title": "条件、循环与算法步骤",
+    "readme": "course/programming/03_control_flow/README.md",
+    "theory": "course/programming/03_control_flow/THEORY.md"
+  },
+  {
+    "id": "P04",
+    "group": "programming",
+    "title": "函数、参数、返回值与作用域",
+    "readme": "course/programming/04_functions/README.md",
+    "theory": "course/programming/04_functions/THEORY.md"
+  },
+  {
+    "id": "P05",
+    "group": "programming",
+    "title": "模块、import 与对象的入口",
+    "readme": "course/programming/05_modules_objects/README.md",
+    "theory": "course/programming/05_modules_objects/THEORY.md"
+  },
+  {
+    "id": "P06",
+    "group": "programming",
+    "title": "文件、CSV、JSON、异常与输入检查",
+    "readme": "course/programming/06_files_errors/README.md",
+    "theory": "course/programming/06_files_errors/THEORY.md"
+  },
+  {
+    "id": "P07",
+    "group": "programming",
+    "title": "Bash 脚本、变量、参数与条件",
+    "readme": "course/programming/07_bash_basics/README.md",
+    "theory": "course/programming/07_bash_basics/THEORY.md"
+  },
+  {
+    "id": "P08",
+    "group": "programming",
+    "title": "遍历文件、批处理与稳健路径",
+    "readme": "course/programming/08_bash_automation/README.md",
+    "theory": "course/programming/08_bash_automation/THEORY.md"
+  },
+  {
+    "id": "P09",
+    "group": "programming",
+    "title": "C++ 源码、编译、链接与可执行文件",
+    "readme": "course/programming/09_cpp_compilation/README.md",
+    "theory": "course/programming/09_cpp_compilation/THEORY.md"
+  },
+  {
+    "id": "P10",
+    "group": "programming",
+    "title": "CMake、构建目录与调试信息",
+    "readme": "course/programming/10_cmake_debug/README.md",
+    "theory": "course/programming/10_cmake_debug/THEORY.md"
+  },
+  {
+    "id": "T01",
+    "group": "tools",
+    "title": "nano、Vim 与文本编辑模式",
+    "readme": "course/tools/01_editors/README.md",
+    "theory": "course/tools/01_editors/THEORY.md"
+  },
+  {
+    "id": "T02",
+    "group": "tools",
+    "title": "VS Code 工作区、解释器与断点",
+    "readme": "course/tools/02_vscode_debug/README.md",
+    "theory": "course/tools/02_vscode_debug/THEORY.md"
+  },
+  {
+    "id": "T03",
+    "group": "tools",
+    "title": "Git 工作区、暂存区与提交",
+    "readme": "course/tools/03_git_basics/README.md",
+    "theory": "course/tools/03_git_basics/THEORY.md"
+  },
+  {
+    "id": "T04",
+    "group": "tools",
+    "title": "Git 分支、合并与同步",
+    "readme": "course/tools/04_git_branches/README.md",
+    "theory": "course/tools/04_git_branches/THEORY.md"
+  },
+  {
+    "id": "T05",
+    "group": "tools",
+    "title": "tmux 会话、窗口与面板",
+    "readme": "course/tools/05_tmux/README.md",
+    "theory": "course/tools/05_tmux/THEORY.md"
+  },
+  {
+    "id": "T06",
+    "group": "tools",
+    "title": "Docker 镜像、容器与挂载（选修）",
+    "readme": "course/tools/06_docker_optional/README.md",
+    "theory": "course/tools/06_docker_optional/THEORY.md"
+  }
+]
